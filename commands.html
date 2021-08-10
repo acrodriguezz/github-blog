@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Git commands</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="commands.js"></script>
+</head>
+<body>
+
+  <!-- MAIN WRAPPER -->
+  <div id="wrapper">
+
+    <!-- BANNER WRAPPER -->
+    <div id="banner-wrapper">
+      <header>
+        <div id="header-inner">
+          <a href="#" id="logo">
+            <img src="img/pics/GitHub-Logo.png" alt="">
+          </a>
+        </div>
+      </header>
+
+    </div>
+
+    <!-- ICONS -->
+    <section class="one-third" id="skills">
+
+      <h3>A great summary of git commands is available <a href="https://education.github.com/git-cheat-sheet-education.pdf">here</a></h3>
+      <p></p>
+    </section>
+
+    <div class="clearfix-padding"></div>
+    <!-- LEFT COL -->
+    <section class="left-col" id="portfolio">
+      <h3>Feel free to add any new command you believe is missing</h3>
+      <div class="command-box-wrap">
+        <form>
+          <div class="command-box command-name">
+            <label></label><strong>Command:</strong></label><br>
+            <input type="text" name="" id="inputCommand">
+            <br>
+            <label class="error-msg" id="commandError">The command field is required</label>
+           
+          </div>
+          <div class="command-box">
+            <label><strong>Description:</strong></label><br>
+            <textarea id="inputDescription"></textarea>
+            <br>
+            <label class="error-msg" id="descriptionError">The description field is required</label>
+            
+          </div>
+        </form>
+      </div>
+      <br>
+      <div class="seemore-btn-wrap">
+        <button class="seemore-btn" type="button" id="sendBtn">Send</button>
+      </div>
+           </section>
+    <section class="sidebar">
+      <img class ="console-img" src="img/pics/console.png" border-radius=4% width="200px">
+    </section>
+
+    <div class="clearfix-padding"></div>
+
+
+</body>
+</html>
